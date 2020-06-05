@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    border-top: 4px solid #f8585c;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
     position: relative;
+    border-bottom: 4px solid #f8585c;
 }
 
 .primoblocco {
@@ -53,7 +58,7 @@
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     right: 0;
