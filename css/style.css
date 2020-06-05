@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.primoblocco {
+    background: url('http://new.sensiblereason.com/wp-content/uploads/2015/01/Copenhagen4.jpg');
+    background-size: cover;
+}
+
+.secondoblocco {
+    background: url('https://honey2moon.files.wordpress.com/2013/01/eiffel-tower-paris-france1.jpg');
+    background-size: cover;
+}
+
+.terzoblocco {
+    background: url('https://cdn.fodors.com/wp-content/uploads/2017/10/HERO_UltimateLondon_Hero_shutterstock412054315.jpg');
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#Copenhagen {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+}
+
+#paris {
+    font-size: 200px;
+    font-family: 'Parisienne', cursive;
+}
+
+#london {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
